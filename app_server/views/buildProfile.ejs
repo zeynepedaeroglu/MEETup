@@ -1,0 +1,48 @@
+<title>Profiliniz</title>
+<div class="container">
+    <div class="row">
+            <div class="panel panel-info" style="width:500px; text-align:center; margin:auto;">
+                <div class="panel-heading">
+                    <div class="panel-title">Edit Your Profile</div>
+                </div>
+                <div class="panel-body" >
+                    <form action="/profile/build" method="post">
+                        <!--ad-->
+                        <div style="margin-bottom: 25px; margin-left:auto;margin-top:100px; border:1px solid lightblue;" class="input-group">
+                            <input id="login-username" type="text" class="form-control" name="ad" placeholder="<%=kukiname%>" width="200"  disabled>
+                        </div>
+                        <!--soyad-->
+                        <div style="margin-bottom: 25px; margin-left:auto; border:1px solid lightblue;" class="input-group">
+                            <input id="login-username" type="text" class="form-control" name="soyad" placeholder="<%=kukisurname%>" width="200" disabled>
+                        </div>
+                        <!--username-->
+                        <div style="margin-bottom: 25px; margin-left:auto; border:1px solid lightblue;" class="input-group">
+                            <input id="login-username" type="text" class="form-control" name="username" placeholder="<%=kukiusername%>" width="200" disabled>
+                        </div>
+
+                        <div style="margin-bottom: 25px; margin-left:auto; border:1px solid lightblue;" class="input-group">
+                            <input id="login-username" type="text" class="form-control" name="description" placeholder="Enter Your Profile Description Here" width="200">
+                        </div>
+
+                        <!--facebook-->
+                        <div style="margin-bottom: 25px; margin-left:auto;margin-top:100px; border:1px solid lightblue;" class="input-group">
+                            <input id="login-username" type="text" class="form-control" name="facebook" placeholder="facebook profile link" width="200">
+                        </div>
+                        <!--instagram-->
+                        <div style="margin-bottom: 25px; margin-left:auto; border:1px solid lightblue;" class="input-group">
+                            <input id="login-username" type="text" class="form-control" name="instagram" placeholder="instagram profile link" width="400">
+                        </div>
+
+
+                    <br/>
+                        <input type="submit" class="btn btn-primary" value="Save My Profile" style="mso-margin-bottom-alt:100px;">
+                    </form>
+                </div>
+                <div class="panel-footer clearfix">
+                    <div class="pull-right">
+                    </div>
+                </div>
+            </div>
+        <%console.log('buildProfile sayfası açıldı.')%>
+    </div>
+</div>
